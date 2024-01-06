@@ -1,0 +1,194 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+/* 两侧 */
+body {
+    /* background-color:#f0ddeb; */
+    background-image: url("photo\\beijing1.jpg");
+    background-size: cover; /* 背景图片将被缩放以填充整个元素 */
+    background-repeat: no-repeat; /* 背景图片不重复 */
+}
+
+#bigbox {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#banner {
+    width: 1000px;
+    font-size: 0px;
+}
+
+#banner img {
+    width: 1000px;
+}
+/* 标题 */
+nav {
+    background-color: rgba(70, 63, 68, 0.514);
+    width: 1000px;
+    height: 60px;
+}
+
+nav a {
+    text-decoration: none;
+    line-height: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: rgb(243, 127, 127);
+}
+
+.dangqian {
+    color: #ffffff85;
+
+}
+/* 简介 */
+#main {  
+    height: 490px;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffffa6;
+
+}
+/* 关于我 */
+#main_left {
+    width: 300px;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.925);
+
+    float: left;
+}
+
+h2 {
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: #03151F;
+    color: #ffffff;
+}
+
+#main_left img {
+    width: 300px;
+    height: 306px;
+}
+#main_left img:hover{
+    width: 300px;
+    background-color: #00000044;
+}
+
+#main_left p {
+    margin-left: 10px;
+    line-height: 40px;
+}
+
+#main_left span {
+    font-weight: bold;
+}
+
+#main_right {
+    position: relative;
+    width: 690px;
+    margin-left: 0px;
+    display: inline-block;
+    height: 200px;
+}
+
+#main_right img {
+    position: absolute;
+    width: 260px;
+    right: 0px;
+    top: 30px;
+}
+
+#main_right p {
+    width: 600px;
+    display: inline-block;
+    margin-left: 10px;
+    text-indent: 30px;
+    line-height: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 22px;
+
+}
+/* 旅行 */
+#luxing {
+    background-color: #ffffffa6;
+    margin-left: 300px;
+    width: 700px;
+}
+
+#luxing p {
+    margin-left: 10px;
+    font-size: 20px;
+    height: 100px;
+    line-height: 100px;
+    text-indent: 50px;
+
+
+}
+
+#picture {
+    font-size: 0px;
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+#picture img {
+    width: 200px;
+}
+
+#picture p {
+    font-size: 16px;
+    text-align: center;
+    line-height: 60px;
+
+}
+
+footer {
+    line-height: 60px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #CCD0D9;
+}
+
+#main_right ul li {
+    width: 660px;
+    margin-left: 10px;
+    font-size: 12px;
+    margin-top: 10px;
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 10px;
+}
+
+#main_right ul li span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#liuyan {
+    width: 660px;
+    margin-left: 10px;
+    margin: 20px;
+}
+
+#liuyan span {
+    display: inline-block;
+    width: 80px;
+    line-height: 40px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    margin-left: 80px;
+}

@@ -1,0 +1,112 @@
+
+/* ****************** 师资介绍 ****************** */
+.team-intro {
+  margin-top: 48px;
+  padding-top: 62px;
+  padding-bottom: 52px;
+}
+
+.team-members {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 24px;
+  margin-top: 86px;
+  margin-right: 90px;
+  margin-left: 90px;
+}
+
+.team-member {
+  background-color: white;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding-bottom: 28px;
+
+  /* 鼠标移上去过度效果 */
+  transition: 0.5s;
+
+  display: grid;
+  justify-items: center;
+}
+
+.profile-image {
+  /* 蒙版 */
+  overflow: hidden;
+}
+
+.profile-image img {
+  width: 100%;
+  height: 264px;
+  /* 等比例缩放，超出的部分隐藏 */
+  object-fit: cover;
+  /* x轴是top，y轴是center */
+  /* object-position: top center; */
+}
+
+.team-member .name {
+  margin-top: 18px;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--text-color-dark);
+}
+
+.team-member .position {
+  color: var(--text-color-dark-gray);
+  margin-top: 12px;
+  margin-bottom: 18px;
+}
+
+.social-links {
+  width: 100%;
+  max-width: 200px;
+  display: flex;
+  /* 平均 */
+  justify-content: space-between;
+  padding: 0 42px;
+}
+
+/* ** 社交账号 ** */
+/* 不显示“点” */
+.social-links li {
+  list-style: none;
+}
+
+.social-links li a {
+  color: var(--text-color-dark);
+  /* text-decoration: none; */
+}
+
+/* 图片hover效果 */
+.team-member:hover {
+  /* 图片向上移动20px */
+  /* scale缩放，放大1.05倍 */
+  transform: translateY(-20px) scale(1.05);
+  /* 添加一些阴影 */
+  /* box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1); */
+}
+.profile-image{width:350px}
+
+.title1{
+  text-align: center;
+font-size: 40px;
+border-bottom: 5px solid red;
+padding-bottom: 20px;
+
+}
+
+.lenovo{
+position: fixed;
+lift:30px;
+width:200px;
+z-index:9999}
+
+.biaoqian{
+color：rgb:(106, 102, 102);
+text-decoration: none;
+position: fixed;
+right:30px;
+z-index:9999}
+.zhiding{
+  position: fixed;
+  top: 10px;
+}
+
